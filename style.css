@@ -397,3 +397,12 @@ h3 {
 .about-col p {
     padding: 15px 0 25px;
 }
+.teal-btn {
+    border: 1px solid #009688;
+    background: transparent;
+    color: #009688;
+}
+
+.teal-btn:hover {
+    color: #fff;
+}
