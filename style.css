@@ -441,6 +441,7 @@ h3 {
 .contact-col {
     flex-basis: 48%;
     margin-bottom: 30px;
+
 }
 
 
@@ -448,6 +449,7 @@ h3 {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    display: list-item;
 }
 
 .contact-col div .fa-brands {
