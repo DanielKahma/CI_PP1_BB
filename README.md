@@ -1,7 +1,7 @@
 # Bobbys Burger
 (Developer: Daniel Kahma)
 
-![Mockup image]()
+![Mockup image](docs/burgerback.jpg)
 
 [Live webpage]()
 
