@@ -11,6 +11,7 @@
     background-size: cover;
     background-position: center;
 }
+
 nav {
     display: flex;
     padding: 2% 10%;
@@ -54,6 +55,7 @@ nav img {
 .nav-links ul li:hover::after {
     width: 100%;
 }
+
 .text-box {
     width: 90%;
     color: #fff;
@@ -74,6 +76,7 @@ nav img {
     font-size: 14px;
     color: #fff;
 }
+
 .hero-btn {
     display: inline-block;
     text-decoration: none;
@@ -91,6 +94,7 @@ nav img {
     background: #009688;
     transition: 1s;
 }
+
 nav .fa {
     display: none;
 }
@@ -129,6 +133,7 @@ nav .fa {
         padding: 30px;
     }
 }
+
 .Nextpage {
     width: 80%;
     margin: auto;
@@ -156,6 +161,7 @@ p {
     justify-content: space-between;
 
 }
+
 .courses {
     flex-basis: 31%;
     background: #fff3f3;
@@ -182,6 +188,7 @@ h3 {
 
     }
 }
+
 .courses {
     width: 80%;
     height: 300px;
@@ -203,13 +210,14 @@ h3 {
 
 }
 
-.Menus img{
+.Menus img {
     width: 100%;
     height: 400px;
     display: block;
     margin-left: 30px;
 
 }
+
 .layer {
     background: transparent;
     margin-left: 30px;
@@ -243,6 +251,7 @@ h3 {
     bottom: 49%;
     opacity: 1;
 }
+
 .restaurant {
     width: 80%;
     margin: auto;
@@ -273,6 +282,7 @@ h3 {
     margin-bottom: 15px;
     text-align: left;
 }
+
 .Reviews {
     width: 80%;
     margin: auto;
@@ -319,6 +329,7 @@ h3 {
         margin-right: 15px;
     }
 }
+
 .Bat {
     margin: 100px auto;
     width: 80%;
@@ -341,6 +352,7 @@ h3 {
         font-size: 24px;
     }
 }
+
 .Footer {
     width: 100%;
     text-align: center;
@@ -354,12 +366,14 @@ h3 {
     font-weight: 600;
 
 }
+
 .icons .fa {
     color: #f44336;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
 }
+
 .sub-header {
     height: 50vh;
     width: 100%;
@@ -373,6 +387,7 @@ h3 {
 .sub-header h1 {
     margin-top: 100px;
 }
+
 .about-us {
     width: 80%;
     margin: auto;
@@ -397,6 +412,7 @@ h3 {
 .about-col p {
     padding: 15px 0 25px;
 }
+
 .teal-btn {
     border: 1px solid #009688;
     background: transparent;
@@ -406,6 +422,7 @@ h3 {
 .teal-btn:hover {
     color: #fff;
 }
+
 .location {
     width: 80%;
     margin: auto;
@@ -415,6 +432,7 @@ h3 {
 .location iframe {
     width: 100%;
 }
+
 .contact-us {
     width: 80%;
     margin: auto;
@@ -449,6 +467,7 @@ h3 {
     color: #555;
     font-weight: 400;
 }
+
 .contact-col input,
 .contact-col textarea {
     width: 100%;
@@ -463,6 +482,7 @@ h3 {
     margin: 10px 0;
 
 }
+
 .contact {
     height: 50vh;
     width: 100%;

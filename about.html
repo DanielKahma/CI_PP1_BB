@@ -1,88 +1,85 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <Title>Bobbys Burgers</Title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
-
-</head>
-<body>
+    <title>Bobbys Burgers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
     <section class="sub-header">
-        <nav>
-            <a href="index.html"><img src="bobbysburger.png" alt="logo of the restaurant"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact us</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-            </nav>
-            
-            <h1>About Us</h1>
-            
-            </section>
-            <script>
+      <nav>
+        <a href="index.html"
+          ><img src="assets/bobbysburger.png" alt="logo of the restaurant"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
 
-                var navLinks = document.getElementById("navLinks");
+      <h1>About Us</h1>
+    </section>
+    <script>
+      var navLinks = document.getElementById("navLinks");
 
-                function showMenu() {
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>Best Burger In Town</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+            at tellus quis lorem consectetur porttitor eu quis lacus. Proin
+            tempor quis diam lacinia consectetur. In eget malesuada orci,
+            venenatis vulputate mi. Sed porta interdum mi, eget euismod enim
+            imperdiet in. Pellentesque nec urna vel lorem fringilla suscipit at
+            sit amet est. Nullam porta pretium lacus, a venenatis arcu
+            consectetur et. Mauris a est rhoncus, cursus metus a, tempus massa.
+            Cras risus arcu, pulvinar et ornare quis, congue sagittis elit.
+          </p>
+          <a href="" class="hero-btn teal-btn">Contact Us</a>
+        </div>
+        <div class="about-col">
+          <img src="assets/burgerteam.jpg" alt="photo of the team" />
+        </div>
+      </div>
+    </section>
+    section class="Footer">
+    <h4>About us</h4>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.<br />
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+      aliquip ex ea commodo consequat.
+    </p>
 
-                    navLinks.style.right = "0";
-                }
-                function hideMenu() {
+    <div class="icons">
+      <i class="fa var-facebook"></i>
+    </div>
 
-                    navLinks.style.right = "-200px";
-                }
-            </script>
-            <section class="about-us">
-            
-                <div class="row">
-                    <div class="about-col">
-                        <h1>Best Burger In Town</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at tellus quis lorem consectetur
-                            porttitor eu quis lacus. Proin tempor quis diam lacinia consectetur. In eget malesuada orci, venenatis
-                            vulputate mi. Sed porta interdum mi, eget euismod enim imperdiet in. Pellentesque nec urna vel lorem
-                            fringilla suscipit at sit amet est. Nullam porta pretium lacus, a venenatis arcu consectetur et. Mauris
-                            a est rhoncus, cursus metus a, tempus massa. Cras risus arcu, pulvinar et ornare quis, congue sagittis
-                            elit.</p>
-                            <a href="" class="hero-btn teal-btn">Contact Us</a>
-                            </div>
-                            <div class="about-col">
-                                <img src="burgerteam.jpg" alt="photo of the team">
-                            
-                            </div>
-                            
-                            </div>
-                            
-                            
-                            </section>
-                            section class="Footer">
-                            <h4>About us</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat.</p>
-                            
-                            <div class="icons">
-                                <i class="fa var-facebook"></i>
-                            
-                            
-                            
-                            </div>
-                            
-                            <p>Made By Daniel Kahma</p>
-                            
-                            </body>
-                            
-                            </html>
+    <p>Made By Daniel Kahma</p>
+  </body>
+</html>
