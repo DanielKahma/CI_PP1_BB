@@ -3,23 +3,35 @@
 
 ![Mockup image](docs/burgerback.jpg)
 
-[Live webpage]()
+
+# Bobbys Burgers
+
+Juciest Burgers In Town.
+
+[Live webpage](https://danielkahma.github.io/CI_PP1_BB/)
+## Acknowledgements
+
+I had various inspirations when making this README, they did suck an amazing job and i took some ideas from them, please check them out below:
+
+ - [Ana Runje](https://github.com/4n4ru/CI_MS1_BodelschwingherHof/blob/master/README.md#bodelschwinger-hof)
+ 
+ - [Tiny Travelers](https://github.com/Apollon999/Tiny-Travelers/tree/main)
+
 
 ## Table of Content
 
-1. [Project Goals](#project-goals)
-    1. [User Goals](#user-goals)
-    2. [Site Owner Goals](#site-owner-goals)
-2. [User Experience](#user-experience)
-    1. [Target Audience](#target-audience)
-    2. [User Requrements and Expectations](#user-requrements-and-expectations)
-    3. [User Stories](#user-stories)
+Project Goals
+
+Target Audience
+
+Why I Made This Website
+
+User Stories
 3. [Design](#design)
-    1. [Design Choices](#design-choices)
+    1. Design Choices
     2. [Colour](#colours)
     3. [Fonts](#fonts)
     4. [Structure](#structure)
-    5. [Wireframes](#wireframes)
 4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
     2. [Frameworks & Tools](#frameworks-&-tools)
@@ -28,17 +40,41 @@
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
     3. [Accessibility](#accessibility)
-    4. [Performance](#performance)
     5. [Device testing](#performing-tests-on-various-devices)
     6. [Browser compatibility](#browser-compatability)
-    7. [Testing user stories](#testing-user-stories)
 8. [Bugs](#Bugs)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
+ 
+
+## Why I Made this Website
+
+I decided to make this website as my first project in webdevelopment because I really love hamburgers. It's very simple to use and navigate.
 
 
 
+
+
+
+## Project Goals
+
+- The goals with this website is for our restaurant to enter the cyberspace.
+- Make it easier for new customers to find us.
+## Target Audience
+- People who wants to have home delivery
+- people who wants go have a nice place to meet up witht heir friends
+- people who really loves hamburgers
+## Features
+- Bobbys Burgers has three pages, Homepage, About page and Contact page.
+### Homepage:<br>
+![Homepage](docs/homepage.png)
+
+### About Us:<br>
+![aboutusread](docs/aboutusread.png)
+
+### Contact:<br>
+![Contactread](docs/contactread.png)
 
 
 
