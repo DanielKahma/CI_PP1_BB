@@ -4,7 +4,7 @@
 Juciest Burgers In Town.
 
 
-![Mockup image](docs/burgerback.jpg)
+![Mockup image](docs/headpic.png)
 
 [Live webpage](https://danielkahma.github.io/CI_PP1_BB/)
 ## Acknowledgements
