@@ -1,12 +1,10 @@
-# Bobbys Burger
-(Developer: Daniel Kahma)
-
-![Mockup image](docs/burgerback.jpg)
-
 
 # Bobbys Burgers
 
 Juciest Burgers In Town.
+
+
+![Mockup image](docs/burgerback.jpg)
 
 [Live webpage](https://danielkahma.github.io/CI_PP1_BB/)
 ## Acknowledgements
@@ -16,105 +14,158 @@ I had various inspirations when making this README, they did suck an amazing job
  - [Ana Runje](https://github.com/4n4ru/CI_MS1_BodelschwingherHof/blob/master/README.md#bodelschwinger-hof)
  
  - [Tiny Travelers](https://github.com/Apollon999/Tiny-Travelers/tree/main)
-
-
-## Table of Content
-
-Project Goals
-
-Target Audience
-
-Why I Made This Website
-
-User Stories
-3. [Design](#design)
-    1. Design Choices
-    2. [Colour](#colours)
-    3. [Fonts](#fonts)
-    4. [Structure](#structure)
-4. [Technologies Used](#technologies-used)
-    1. [Languages](#languages)
-    2. [Frameworks & Tools](#frameworks-&-tools)
-5. [Features](#features)
-6. [Testing](#validation)
-    1. [HTML Validation](#HTML-validation)
-    2. [CSS Validation](#CSS-validation)
-    3. [Accessibility](#accessibility)
-    5. [Device testing](#performing-tests-on-various-devices)
-    6. [Browser compatibility](#browser-compatability)
-8. [Bugs](#Bugs)
-9. [Deployment](#deployment)
-10. [Credits](#credits)
-11. [Acknowledgements](#acknowledgements)
  
 
 ## Why I Made this Website
 
-I decided to make this website as my first project in webdevelopment because I really love hamburgers. It's very simple to use and navigate.
+- I decided to make this website as my first project in webdevelopment 
+
+- Because I really love hamburgers. It's very simple to use and navigate.
 
 
 
+## Table of Content
+
+#### 1. Project Goals
+
+#### 2. Target Audience
+
+#### 3. Features
+   - Homepage
+     
+   - About Us
+  
+   - Contact
+  
+   - Food Menu
+  
+   - Goodle Maps
+  
+   - Reviews
+  
+#### 5. Technologies Used
+   - Languages
+
+#### 6. Validation
+   - HTML Validation
+  
+   - CSS Validation
+  
+   - Lighthouse Testing
+
+#### 7. Development And Deployment
+   - Development
+  
+   - Deployment
+  
+#### 8. Content
+
+#### 9. Design
 
 
-
-## Project Goals
+# Project Goals
 
 - The goals with this website is for our restaurant to enter the cyberspace.
+
 - Make it easier for new customers to find us.
-## Target Audience
+# Target Audience
 - People who wants to have home delivery
+
 - people who wants go have a nice place to meet up witht heir friends
+
 - people who really loves hamburgers
-## Features
+
+# Features
+
 - Bobbys Burgers has three pages, Homepage, About page and Contact page.
-### Homepage:<br>
+  
+## Homepage:<br>
+
 ![Homepage](docs/homepage.png)
 
-### About Us:<br>
+## About Us:<br>
+
 ![aboutusread](docs/aboutusread.png)
 
-### Contact:<br>
+## Contact:<br>
+
 ![Contactread](docs/contactread.png)
 
+## Food Menu: <br>
+
+![menufood](docs/menufood.png)
+
+## Goodle Maps: <br>
+
+![googlemap](docs/googlemap.png)
+
+## Reviews: <br>
+
+![reviewsbat](docs/reviewsbat.png)
+# Technologies Used
+
+## Languages
+
+- HTML
+
+- CSS
+
+- Google
+
+- Youtube
+
+- GitHub
+# Validation
+## HTML Validation
+
+No errors for the official W3C validator
+
+![validationhtml](docs/validationw3.png)
+
+## CSS Validation
+
+No errors for the CSS validation
+
+![validationcss](docs/validationcss.png)
 
 
+## Lighthouse Testing
 
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![lighthouse](docs/lighthouse.png)
+# Development And Deployment
+## Development
 
-Welcome,
+- The development environment used for my website was GitPod and CodeAnywhere, regular commits and pushes to GitHub has been conducted. The GitPod environment was created using a template provided by Code Institute.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+- The live version of the project is deployed at GitHub pages, please visit [Here](https://danielkahma.github.io/CI_PP1_BB/) 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Deployment
 
-## Codeanywhere Reminders
+ 1. Log into GitHub.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+2. Locate the GitHub Repository that shall be deployed live.
 
-`python3 -m http.server`
+3. At the top of the repository, select Settings from the menu items.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+4. Scroll down the Settings page to the ”GitHub Pages" section and click on the ”Deploy from a branch.”
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+5. At the ”Source” section choose ”main” as Branch and root as folder and click ”Save”
 
-`http_server`
+6. The website will deploy and the pages refreshes to provide the live link to the project.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+# Content
+- The content in this project is fictional, it is a project i came up with, with the help of inspiration from a lot of different places.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- I have always wanted to try a Burger challenge but have never gotten the chance, thats why i included it in my website.
 
-To log into the Heroku toolbelt CLI:
+- Everything written on the website is made up by me.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- Social media icons in the Footer of the website is taken from Font Awesome, as well as the "bars" and "close" icons used for the responsive menu in the top right corner
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
----
+# Design
+- As this is my first project ever, i have learned a lot, i got to play around and test different ideas which was really fun, i really enjoyed this project.
 
-Happy coding!
+- My goal was to do the best i could with the limited knowledge i had and i think it was successful in making a good looking website
+
